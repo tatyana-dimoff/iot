@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>iotcli</AssemblyName>
+    <RootNamespace>IoT.CLI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IoTnxt.VodacomEcs.CLI.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IoTnxt.DAPI.Abstractions" Version="8.0.0" />
+    <PackageReference Include="IoTnxt.DAPI.RedGreenQueue" Version="8.0.2" />
+    <PackageReference Include="IoTnxt.DAPI.RedGreenQueue.Abstractions" Version="8.0.0" />
+    <PackageReference Include="IoTnxt.Gateway.API.Abstractions" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

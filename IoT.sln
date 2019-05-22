@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.CLI", "IoT.CLI\IoT.CLI.csproj", "{DC4632EA-4111-476C-ADD6-BF38EF4C7E16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Lib", "IoT.Lib\IoT.Lib.csproj", "{57B619A3-F548-4E75-AC82-400799A06E0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Lib.Tests", "IoT.Lib.Tests\IoT.Lib.Tests.csproj", "{7A9769E4-7387-4F9A-9832-2E9C9CC6673B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC4632EA-4111-476C-ADD6-BF38EF4C7E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4632EA-4111-476C-ADD6-BF38EF4C7E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4632EA-4111-476C-ADD6-BF38EF4C7E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4632EA-4111-476C-ADD6-BF38EF4C7E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B619A3-F548-4E75-AC82-400799A06E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B619A3-F548-4E75-AC82-400799A06E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B619A3-F548-4E75-AC82-400799A06E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B619A3-F548-4E75-AC82-400799A06E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9769E4-7387-4F9A-9832-2E9C9CC6673B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9769E4-7387-4F9A-9832-2E9C9CC6673B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9769E4-7387-4F9A-9832-2E9C9CC6673B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9769E4-7387-4F9A-9832-2E9C9CC6673B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78B15BE7-F815-4748-87D0-34137777827E}
+	EndGlobalSection
+EndGlobal
